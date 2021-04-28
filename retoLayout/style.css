@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+font-size: 62.5%;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    background-color: peru;
+    font-size: 2rem;
+    position: relative;
+    margin: 0 auto;
+    padding: 10px 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.imagen img {
+    width: 50px;
+    height: 50px;
+    position-left;
+}
+
+.menu {
+    text-decoration: none;
+    text-align: right;
+    position:relative
+}
+.menu li {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+}
+.pagina {
+    position:relative;
+    height: 100%;
+}
+.side {
+    margin-bottom: 10px;
+    background-color: salmon;
+    display: inline-block;
+    width: 25%;
+    position: relative;
+}
+.article {
+    background-color: darkturquoise;
+    display: inline-block;
+    position: absolute;
+    height: 100%;
+}
+.side div {
+    padding: 19%;
+    background-color: springgreen;
+    border-radius: 20px;
+    margin: 15px;
+}
+.footer {
+    background-color: violet;
+    padding: 50px;
+    position: relative;
+    margin-top: -2rem;
+    
+}
